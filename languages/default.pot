@@ -1,14 +1,112 @@
-# Copyright (C) 2022 
+# Copyright (C) 2024 
+# This file is distributed under the same license as the DT Home plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: DT Home 0.1\n"
+"Project-Id-Version: DT Home 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dt-home\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-10-27T10:12:56+00:00\n"
+"POT-Creation-Date: 2024-02-15T20:02:58+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.1\n"
+"X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: dt_home\n"
+
+#. Plugin Name of the plugin
+#: dt-home.php
+msgid "DT Home"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: dt-home.php
+msgid "https://github.com/TheCodeZone/dt_home"
+msgstr ""
+
+#. Description of the plugin
+#: dt-home.php
+msgid "An app home screen for disciple.tools. Part of the DT Toolbox."
+msgstr ""
+
+#. Author URI of the plugin
+#: dt-home.php
+msgid "https://github.com/TheCodeZone"
+msgstr ""
+
+#: resources/views/auth/login.php:25
+msgid "Username or Email Address"
+msgstr ""
+
+#: resources/views/auth/login.php:31
+msgid "Password"
+msgstr ""
+
+#: resources/views/auth/login.php:41
+msgid "Login"
+msgstr ""
+
+#: resources/views/auth/register.php:47
+msgid "Register"
+msgstr ""
+
+#: resources/views/auth/register.php:55
+msgid "Back to Login"
+msgstr ""
+
+#: resources/views/hidden-apps.php:23
+msgid "Visit subpage"
+msgstr ""
+
+#: resources/views/index.php:26
+msgid "Hidden apps"
+msgstr ""
+
+#: resources/views/layouts/plugin.php:15
+#: resources/views/layouts/settings.php:12
+msgid "Apps"
+msgstr ""
+
+#: resources/views/layouts/plugin.php:16
+#: resources/views/training.php:6
+msgid "Training"
+msgstr ""
+
+#: resources/views/layouts/plugin.php:17
+msgid "Log Out"
+msgstr ""
+
+#: resources/views/layouts/settings.php:2
+#: src/Providers/AdminServiceProvider.php:24
+#: src/Providers/AdminServiceProvider.php:25
+msgid "Home"
+msgstr ""
+
+#: resources/views/layouts/settings.php:7
+msgid "General"
+msgstr ""
+
+#: resources/views/layouts/settings.php:17
+msgid "Training Videos"
+msgstr ""
+
+#: resources/views/subpage.php:12
+msgid "Visit home"
+msgstr ""
+
+#: src/Controllers/LoginController.php:49
+#: src/Controllers/RegisterController.php:55
+msgid "An unexpected error has occurred."
+msgstr ""
+
+#: src/Middleware/Nonce.php:20
+msgid "Could not verify request."
+msgstr ""
+
+#: src/Providers/PostTypeServiceProvider.php:42
+msgid "Starter"
+msgstr ""
+
+#: src/Providers/PostTypeServiceProvider.php:47
+msgid "Default starter functionality"
+msgstr ""
