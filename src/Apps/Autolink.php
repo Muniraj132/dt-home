@@ -2,7 +2,7 @@
 
 namespace DT\Home\Apps;
 
-use function DT\Home\template;
+use function DT\Home\is_plugin_active;
 
 class Autolink extends App
 {
@@ -22,7 +22,7 @@ class Autolink extends App
 
     public function authorized(): bool
     {
-        if ( !\is_plugin_active( 'disciple-tools-autolink/disciple-tools-autolink.php' ) ) {
+        if ( !is_plugin_active( 'disciple-tools-autolink/disciple-tools-autolink.php' ) ) {
             return false;
         }
 
